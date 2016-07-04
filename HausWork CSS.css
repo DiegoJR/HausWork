@@ -1,0 +1,108 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+		background-color: #FFF;
+}
+
+#container{
+	width:80% !important;
+	max-width: 90%;
+}
+
+.site-header {
+	background: #ee4035;
+	position: relative;
+    padding: 15px 0 13px;
+    text-align: center;
+    z-index: 99988;
+    line-height: 1.55;
+}
+
+
+.site-header a {
+	font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+    color: #ffffff !important;
+}
+
+.card {
+	display: table;
+  	margin-top: 15px;
+	height: 300px;
+	width: 30%;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+img {
+	height: 230px;
+}
+
+.main_cont {
+	padding-top: 60px;
+	position: relative;
+	background-color: #FFF;
+	z-index: 10;
+	margin-bottom: 420px;
+}
+
+.card-panel {
+	width: 100%;
+	display: table;
+    margin-bottom: 0px !important; 
+}
+
+.white-text {
+	height: 360px;
+}
+
+.formulario{
+	padding-bottom: 15px;
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ee4035 !important;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    -ms-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+.flow {
+	position: fixed;
+	bottom: 0px;
+	width:80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	z-index: 1;
+}
+
+#teal {
+	background-color: white !important;
+}
+
+.flow img {
+	z-index: -10;
+	margin-top: 10px;
+	height: 180px;
+}
+
+#flooter {
+	color: white;
+	background-color: #ee4035;
+	height: 180px;
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	padding: 30px;
+}
